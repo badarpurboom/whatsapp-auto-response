@@ -60,7 +60,8 @@ while True:
                 # time.sleep(10)
                 msg_box.send_keys(str(ch(x)), Keys.RETURN)
                 k = None
-                user = driver.find_element_by_xpath('//span[@title="{}"]'.format("Papa Jio"))
+                # in "papa JIo" write last name or any blocked contect number of your whatsapp recent chat 
+                user = driver.find_element_by_xpath('//span[@title="{}"]'.format("Papa Jio"))  
                 user.click()
     except:
         pass
