@@ -57,7 +57,7 @@ while True:
                 x = user_msg[-1].text
                 msg_box = driver.find_element_by_class_name('_2A8P4')
                 msg_box.click()
-                # time.sleep(10)
+                time.sleep(10)
                 msg_box.send_keys(str(ch(x)), Keys.RETURN)
                 k = None
                 # in "papa JIo" write last name or any blocked contect number of your whatsapp recent chat 
